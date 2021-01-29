@@ -12,5 +12,6 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - name: checkout
       uses: actions/checkout@master
+    - name: execute script 
       run: |
         ./transfer.sh
