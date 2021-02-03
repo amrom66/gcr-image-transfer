@@ -8,3 +8,7 @@ k8s.gcr.io/etcd:3.4.3-0=linjinbao66/etcd:3.4.13-0
 k8s.gcr.io/metrics-server/metrics-server:v0.4.1=linjinbao66/metrics-server:v0.4.1
 quay.io/prometheus/node-exporter:v1.0.1=linjinbao66/node-exporter:v1.0.1
 k8s.gcr.io/ingress-nginx/controller:v0.43.0=linjinbao66/ingress-nginx-controller:v0.43.0
+quay.io/jetstack/cert-manager-cainjector:v0.10.1=linjinbao66/cert-manager-cainjector:v0.10.1
+k8s.gcr.io/ingress-nginx/controller:v0.41.2=linjinbao66/ingress-nginx-controller:v0.41.2
+k8s.gcr.io/defaultbackend-amd64:1.5=linjinbao66/defaultbackend-amd64:1.5
+registry.gitlab.com/gitlab-org/build/cng/gitlab-webservice-ee:v13.8.2=linjinbao66/gitlab-org-build-cng-gitlab-webservice-ee:v13.8.2
