@@ -1,8 +1,6 @@
-
 docker.elastic.co/elasticsearch/elasticsearch:6.5.4=linjinbao66/elasticsearch:6.5.4
 fluent/fluentd-kubernetes-daemonset:v1.3-debian-elasticsearch=linjinbao66/fluentd-kubernetes-daemonset:v1.3-debian-elasticsearch
 docker.elastic.co/kibana/kibana:6.5.4=linjinbao66/kibana:6.5.4
-
 k8s.gcr.io/kube-proxy:v1.19.3=linjinbao66/kube-proxy:v1.19.3
 k8s.gcr.io/kube-controller-manager:v1.19.3=linjinbao66/kube-controller-manager:v1.19.3
 k8s.gcr.io/kube-scheduler:v1.19.3=linjinbao66/kube-scheduler:v1.19.3
