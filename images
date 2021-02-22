@@ -1,3 +1,4 @@
+k8s.gcr.io/ingress-nginx/e2e-test-runner:v20210104-g81a8d5cd8=linjinbao66/e2e-test-runner:v20210104-g81a8d5cd8
 docker.elastic.co/elasticsearch/elasticsearch:6.5.4=linjinbao66/elasticsearch:6.5.4
 fluent/fluentd-kubernetes-daemonset:v1.3-debian-elasticsearch=linjinbao66/fluentd-kubernetes-daemonset:v1.3-debian-elasticsearch
 docker.elastic.co/kibana/kibana:6.5.4=linjinbao66/kibana:6.5.4
