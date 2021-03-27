@@ -1,3 +1,8 @@
+k8s.gcr.io/kube-controller-manager:v1.19.7=linjinbao66/kube-controller-manager:v1.19.7
+k8s.gcr.io/kube-proxy:v1.19.7=linjinbao66/kube-proxy:v1.19.7
+k8s.gcr.io/kube-scheduler:v1.19.7=linjinbao66/kube-scheduler:v1.19.7
+k8s.gcr.io/kube-apiserver:v1.19.7=linjinbao66/kube-apiserver:v1.19.7
+k8s.gcr.io/kube-proxy:v1.19.7=linjinbao66/kube-proxy:v1.19.7
 k8s.gcr.io/build-image/kube-cross:v1.16.0-1=linjinbao66/kube-cross:v1.16.0-1
 kindest/node:v1.20.2@sha256:8f7ea6e7642c0da54f04a7ee10431549c0257315b3a634f6ef2fecaaedb19bab=linjinbao66/kindtest-node:v1.20.2
 k8s.gcr.io/ingress-nginx/e2e-test-runner:v20210104-g81a8d5cd8@sha256:bfd55f589ea998f961825a9d09158d766cf621d1b8fc5d8c905aba07d9794e08=linjinbao66/e2e-test-runner:v20210104-g81a8d5cd8
