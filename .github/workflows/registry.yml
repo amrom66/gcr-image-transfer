@@ -27,7 +27,4 @@ jobs:
           github-token: ${{ secrets.REGISTRY_TOKEN }} 
           image-name: gcr-image-transfer
           image-tag: latest
-      - name: execute bash
-        run: |
-          ./transfer-to-registry.sh
-          docker images
+ 

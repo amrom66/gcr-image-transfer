@@ -6,12 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: docker-login
-      uses: docker-practice/actions-setup-docker@master
-    - name: execute login
-      run: |
-        set -x
-        docker version 
-        echo ${{ secrets.REGISTRY_TOKEN }} | docker login docker.pkg.github.com -u linjinbao --password-stdin 
+      uses: docker/login-action@v1
+      with:
+        registry: ghcr.io
+        username: ${{ github.repository_owner }}
+        password: ${{ secrets.REGISTRY_TOKEN }}
     - name: checkout
       uses: actions/checkout@master
     - name: execute script 
