@@ -6,14 +6,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: docker-login
-      uses: docker/login-action@v1
-      with:
-        registry: docker.pkg.github.com
-        username: linjinbao
-        password: ${{ secrets.REGISTRY_TOKEN }}
+      uses: docker-practice/actions-setup-docker@master
+      run: |
+        set -x
+        docker version 
+        echo ${{ secrets.REGISTRY_TOKEN }} | docker login docker.pkg.github.com -u linjinbao --password-stdin 
     - name: checkout
       uses: actions/checkout@master
     - name: execute script 
       run: |
-        docker info 
         ./transfer-to-registry.sh
+        docker images
