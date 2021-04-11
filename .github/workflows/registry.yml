@@ -26,4 +26,4 @@ jobs:
         with:
           github-token: ${{ secrets.REGISTRY_TOKEN }} 
           image-name: gcr-image-transfer
-          image-tag: ${GITHUB_SHA::8}
+          image-tag: $(echo ${GITHUB_REF:10})
