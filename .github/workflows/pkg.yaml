@@ -2,7 +2,7 @@ name: k8s image transfer
 on: [push]
 jobs:
   transfer:
-    name: transfer-gcr-image
+    name: transfer-pkg-image
     runs-on: ubuntu-latest
     steps:
     - name: docker-login
