@@ -1,8 +1,8 @@
-name: k8s image transfer
+name: k8s image transfer to ghcr
 on: [push]
 jobs:
   transfer:
-    name: transfer-pkg-image
+    name: transfer-ghcr-image
     runs-on: ubuntu-latest
     steps:
     - name: docker-login

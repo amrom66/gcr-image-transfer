@@ -1,4 +1,4 @@
-name: k8s image transfer
+name: k8s image transfer to gcr
 on: [push]
 jobs:
   transfer:

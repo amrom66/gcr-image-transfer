@@ -26,5 +26,5 @@ jobs:
         with:
           github-token: ${{ secrets.REGISTRY_TOKEN }} 
           image-name: gcr-image-transfer
-          image-tag: latest
+          image-tag: ${{ github.sha }}
  
