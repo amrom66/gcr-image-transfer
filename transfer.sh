@@ -9,9 +9,9 @@ then
   while IFS='=' read -r key value
   do
     docker pull ${key}
-    docker tag ${key} ${value}
+    docker tag ${key} linjinbao66/${value}
     docker rmi ${key}
-    docker push ${value}
+    docker push linjinbao66/${value}
   done < "$file"
 
 else
