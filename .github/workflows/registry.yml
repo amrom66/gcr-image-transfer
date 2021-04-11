@@ -1,4 +1,4 @@
-name: CI
+name: registry
 
 on:
   push:
@@ -24,6 +24,6 @@ jobs:
       - name: Build and publish Docker Image to GitHub Packages Registry
         uses: VaultVulp/gp-docker-action@1.1.8
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.REGISTRY_TOKEN }}
           image-name: gcr-image-transfer
           extract-git-tag: true 
