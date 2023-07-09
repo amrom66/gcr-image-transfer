@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file="images"
+file="images.txt"
 
 if [ -f "$file" ]
 then
@@ -9,9 +9,9 @@ then
   while IFS='=' read -r key value
   do
     docker pull ${key}
-    docker tag ${key} linjinbao66/${value}
+    docker tag ${key} ghcr.io/linjinbao/${value}
     docker rmi ${key}
-    docker push linjinbao66/${value}
+    docker push ghcr.io/linjinbao/${value}
   done < "$file"
 
 else

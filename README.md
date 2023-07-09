@@ -2,7 +2,6 @@
 
 该项目用于同步gcr的镜像到官方docker hub中，其原理为利用github action提供的外网服务器拉去gcr镜像，然后重新打上标签，再推送到官方docker hub中。
 
-
 2021-04-11 新增支持同步gcr到ghcr
 
 ## 使用方法

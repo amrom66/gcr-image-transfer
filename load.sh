@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file="images"
+file="images.txt"
 
 if [ -f "$file" ]
 then
